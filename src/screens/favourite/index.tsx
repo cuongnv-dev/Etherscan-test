@@ -1,5 +1,5 @@
-import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
+import {Text, View} from 'react-native';
 
 export const FavouriteScreen = () => {
   return (
@@ -8,5 +8,3 @@ export const FavouriteScreen = () => {
     </View>
   );
 };
-
-const styles = StyleSheet.create({});

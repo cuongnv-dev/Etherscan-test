@@ -1,7 +1,7 @@
-import {StyleSheet, Text, View} from 'react-native';
-import React from 'react';
-import {useRoute} from '@react-navigation/native';
 import {ExplorerName, ExploreStackRouteProps} from '@navigators';
+import {useRoute} from '@react-navigation/native';
+import React from 'react';
+import {Text, View} from 'react-native';
 
 export const TokenDetailScreen = () => {
   const route = useRoute<ExploreStackRouteProps<ExplorerName.TokenDetails>>();
@@ -12,5 +12,3 @@ export const TokenDetailScreen = () => {
     </View>
   );
 };
-
-const styles = StyleSheet.create({});

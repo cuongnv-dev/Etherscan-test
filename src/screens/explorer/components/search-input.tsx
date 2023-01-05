@@ -5,7 +5,7 @@ import {StyleSheet, TextInput, TextInputProps, View} from 'react-native';
 export const SearchInput = ({...rest}: TextInputProps) => {
   return (
     <View style={styles.container}>
-      <Icon icon="explorer" />
+      <Icon icon="search" />
       <TextInput
         {...rest}
         style={styles.input}
