@@ -1,7 +1,6 @@
 ## Etherscan Test Application
 
 #### Setting up the environment:
-
 Follow this [Link](https://reactnative.dev/docs/environment-setup) to complete setup the enviroment
 
 #### How to run the project:
@@ -14,11 +13,10 @@ Follow this [Link](https://reactnative.dev/docs/environment-setup) to complete s
 
 #### Screenshots
 
-<img src="/screenshots/1.png" height="400px"/>
-<img src="/screenshots/2.png" height="400px"/>
-<img src="/screenshots/3.png" height="400px"/>
-<img src="/screenshots/4.png" height="400px"/>
-<img src="/screenshots/5.png" height="400px"/>
-<img src="/screenshots/6.png" height="400px"/>
-<img src="/screenshots/7.png" height="400px"/>
-<img src="/screenshots/8.png" height="400px"/>
+<img src="/screenshots/1.png" height="400px"/> <img src="/screenshots/2.png" height="400px"/>
+<img src="/screenshots/3.png" height="400px"/> <img src="/screenshots/4.png" height="400px"/>
+<img src="/screenshots/5.png" height="400px"/> <img src="/screenshots/6.png" height="400px"/>
+<img src="/screenshots/7.png" height="400px"/> <img src="/screenshots/8.png" height="400px"/>
+
+#### Screen recording
+https://user-images.githubusercontent.com/82807964/210733140-e80523f7-dbd4-46ed-ac94-70a621ceba99.mp4
