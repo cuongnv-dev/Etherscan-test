@@ -1,12 +1,23 @@
-import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {
+  Image,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  useWindowDimensions,
+  View,
+} from 'react-native';
 import React from 'react';
 import {TokenDetail} from 'src/types';
+import RenderHtml from 'react-native-render-html';
 
 interface TokenDetailsProps {
   tokenDetails: TokenDetail;
 }
 
 export const TokenDetails = ({tokenDetails}: TokenDetailsProps) => {
+  const {width} = useWindowDimensions();
+
+  const priceContainerWidth = (width - 40) / 2;
   return (
     <View style={styles.wrapper}>
       <View style={styles.container}>
@@ -19,7 +30,12 @@ export const TokenDetails = ({tokenDetails}: TokenDetailsProps) => {
           <View style={styles.valueContainer}>
             <View style={[styles.valueItem, styles.borderRight]}>
               <Text style={styles.label}>PRICE</Text>
-              <Text style={styles.marginTopSm}>{tokenDetails?.price}</Text>
+              <View style={styles.marginTopSm}>
+                <RenderHtml
+                  contentWidth={priceContainerWidth}
+                  source={{html: tokenDetails?.price}}
+                />
+              </View>
             </View>
             <View style={styles.valueItem}>
               <Text style={styles.label}>MARKET CAP</Text>
